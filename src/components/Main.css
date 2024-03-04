@@ -1,0 +1,301 @@
+/*-------------------------------------- navbar-------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.logo-img {
+    width: 170px;
+    height: 100%;
+}
+.navbar {
+    background-color: #131a27;
+    position: sticky !important;
+    top: 0;
+    z-index: 999;
+}
+Nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 20px;
+}
+Nav .nav-link.kids {
+    font-family: "Bangers", cursive;
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+Nav .nav-link:hover {
+    color: red;
+}
+Nav .nav-link:focus {
+    color: red;
+}
+Nav .nav-link.active {
+    color: red !important;
+}
+.navbar-nav .show > .nav-link {
+    color: red !important;
+}
+#basic-nav-dropdown {
+    z-index: 9999;
+}
+.dropdown-menu {
+    background-color: #131a27 !important;
+}
+.dropdown-menu .d-item {
+    color: #fff !important;
+}
+.dropdown-menu .d-item:hover {
+    background-color: #414345;
+}
+
+/* ------------------------------------home--content-------------------------------------- */
+.home-content {
+    color: #fff;
+    padding: 0px 0px;
+}
+.banner-fit {
+    width: 100%;
+    height: 400px;
+}
+.banner-fit .banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+div.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+/* content */
+/* 1 */
+.sub-head {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.content .one {
+    padding: 20px 0px;
+}
+.content .one .box-fit {
+    width: 160px;
+    height: 182px;
+    transition-duration: 0.1s;
+}
+.content .one .box-fit:hover {
+    transform: scale(1.1);
+}
+.content .one .box-fit .box-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+}
+/* 2 */
+.content .two {
+    padding: 20px 0px;
+}
+.content .two .box-fit {
+    width: 190px;
+    height: 95px;
+    transition-duration: 0.1s;
+}
+.content .two .box-fit:hover {
+    transform: scale(1.1);
+}
+.content .two .box-fit .box-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+}
+/* 3 */
+.content .three {
+    padding: 20px 0px;
+}
+.content .three .box-fit {
+    width: 160px;
+    height: 182px;
+    transition-duration: 0.1s;
+}
+.content .three .box-fit:hover {
+    transform: scale(1.1);
+}
+.content .three .box-fit .box-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+}
+/* 4 */
+.content .four {
+    padding: 20px 0px;
+}
+.content .four .box-fit {
+    width: 190px;
+    height: 100%;
+    transition-duration: 0.1s;
+    border-radius: 42px;
+    position: relative;
+}
+.content .four .box-fit::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 12px;
+    width: 166px !important;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.content .four .box-fit:hover {
+    transform: scale(1.1);
+}
+.content .four .box-fit .box-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.content .four .box-fit .gen-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+/* -----------------------------------------------movies-------------------------------------- */
+.movies-content {
+    padding: 0px 0px;
+    margin-bottom: 50px;
+}
+.lang-selection {
+    padding: 20px 0px 25px !important;
+    position: sticky;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #0c111b;
+    z-index: 99;
+}
+.lang-selection ul {
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+}
+.lang-selection ul li {
+    /* padding: 8px 25px;
+    border-radius: 10px;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526); */
+    transition: all 0.3s;
+}
+.lang-selection ul li:hover {
+    transform: scale(1.1);
+}
+.lang-selection ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    width: fit-content;
+    padding: 8px 25px;
+    border-radius: 10px;
+    background: #232526;
+    background: linear-gradient(to right, #414345, #232526);
+
+    font-weight: 600;
+}
+.lang-selection ul li a:hover {
+    color: aqua !important;
+    z-index: 9999;
+}
+
+.lang-movies {
+    margin-top: 20px;
+}
+.movies .movie-box .m-fit {
+    width: 204px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+.movies .movie-box .m-fit:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.movies .movie-box .m-fit img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+/* ------------------------------------------Sports------------------------------------- */
+.sports .content .four .box-fit {
+    width: 190px;
+    height: 110px;
+    transition-duration: 0.1s;
+    border-radius: 42px;
+    position: relative;
+}
+.sports .content .four .box-fit .box-img {
+    object-fit: cover;
+}
+/* ---------------------------------------------foooter------------------------------------ */
+.footer {
+    padding: 0px 0px 30px;
+    color: #fff;
+}
+.footer .f-start ul {
+    justify-content: left;
+}
+.footer .f-start ul li {
+    margin-right: 20px;
+}
+.footer .f-start ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer .f-start ul li a:hover {
+    color: royalblue;
+}
+.footer .f-mid ul {
+    justify-content: space-evenly;
+}
+/* .footer .f-mid ul li a.c-fit {
+    width: 20px;
+    height: 100%;
+} */
+.footer .f-mid ul li a.c-fit img {
+    width: 50px;
+    height: 100%;
+    object-fit: contain;
+}
+.footer .f-last a.d-fit {
+    width: 200px;
+    height: 100%;
+}
+.footer .f-last a.d-fit img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.footer .f-text {
+    font-size: 15px;
+    font-weight: 600;
+}

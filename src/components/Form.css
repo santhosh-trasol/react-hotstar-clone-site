@@ -1,0 +1,59 @@
+.App {
+    background: url("../components/images/turtle.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: #000;
+}
+/* .App::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0;
+  
+    opacity: 0.2;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+  } */
+.App .row.justify-content-center {
+    height: 100vh;
+}
+.form-box {
+    padding: 40px;
+    background-color: #ffffffe3;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px !important;
+    font-weight: bolder !important;
+}
+.form-box .form-label {
+    text-transform: capitalize !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-box input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent !important;
+    padding: 0px 10px;
+}
+.form-box .sub-btn {
+    background-color: crimson;
+    color: #fff;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+.form-box .sub-btn:hover {
+    background-color: #000;
+    color: crimson;
+}
+.form-box span {
+    color: red;
+}
